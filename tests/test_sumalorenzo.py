@@ -1,4 +1,4 @@
-from funciones import sumar
+from funciones.sumaLorenzo import sumar
 
 def test_sumar():
  assert sumar(3, 5) == 8

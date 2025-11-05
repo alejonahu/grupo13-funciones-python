@@ -1,4 +1,4 @@
-from funciones.dividir import dividir
+from funciones.dividir import dividir # type: ignore
 
 def test_dividir():
     assert dividir(10, 2) == 5
